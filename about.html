@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college website design</title>
+    <link rel="stylesheet" href="/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <section class="sub-header">
+        <nav>
+                <a href="index.html"><img src="../images/logo.png" ></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="facilities.html">FACILITIES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu() "></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+    <!------about us content------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the no 1 institute in odisha.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos iure, quisquam ut sit quas aliquid, omnis, tempora quos rem atque minus illum. Fuga eveniet, vel molestiae corporis laboriosam consectetur perferendis.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="../images/b.jpg" >
+            </div>
+        </div>
+
+    </section>
+  <!------Adminstration------->
+  <section class="admin">
+        <i class="fa fa-users fa-5x"></i>
+        <h1 style="text-align:center">Management</h1>
+        <h3>Meet the people who Made it Possible.</h3>
+  <div class="row">
+    <div class="admin-col">
+      <div class="card">
+        <p style="text-align: center;"><img src="../images/chairman.jpg" alt="chairman" style="width:60%"></p>
+        <div class="container">
+          <h2>Satyabhusan Sahu</h2>
+          <p class="title">CHAIRMAN</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>jane@example.com</p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="admin-col" >
+      <div class="card">
+        <p style="text-align: center;"><img src="../images/director.jpg" alt="Director" style="width:60%"></p>
+        <div class="container">
+          <h2>Tankadhar Sahu</h2>
+          <p class="title">DIRECTOR</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>tankadhar@gmail.com</p>
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </section>
+
+  <hr>
+
+<!------Footer------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse repudiandae, voluptas minima <br>
+    perferendis voluptates debitis delectus necessitatibus sed quaerat cumque, in id unde tempora ipsa <br>
+    labore, ducimus veniam temporibus obcaecati.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+
+</section>
+
+<!-------javaScript for Toggle Menu ------->
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right = "0";
+}
+
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+</script>
+
+</body>
+</html>
